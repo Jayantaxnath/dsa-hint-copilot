@@ -1,0 +1,14 @@
+1. First Click (Generates All 4 Hints)
+``````````````````````````````````````
+User Click  →  DOM Extract → ONE API Call (4 hints)  →  Display Hint 1
+   ~20ms    →    ~100ms    →      ~1.9-4.8s            →      ~50ms
+
+Total: ~ 2-4.9 seconds (one-time cost)
+
+
+2. Clicks 2-4 (Instant)
+````````````````````````
+User Click  →  Display cached hint
+   ~20ms    →       ~50ms
+
+Total: ~70ms per hint

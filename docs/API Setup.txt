@@ -1,0 +1,8 @@
+1. Go to the Groq console: https://console.groq.com/keys
+2. Sign up or log in to your account.
+3. Create a new API key.
+4. Copy the API key.
+5. Open the content.js file and paste the key into the API_KEY field.
+6. Keep your API key private and never share it with others.
+
+You're all set!
