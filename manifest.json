@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "DSA Hint Copilot",
+  "version": "1.0",
+  "description": "Get progressive hints for LeetCode and GeeksforGeeks problems",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://www.leetcode.com/*",
+    "https://geeksforgeeks.org/*",
+    "https://www.geeksforgeeks.org/*"
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_title": "Get Hint"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/problems/*",
+        "https://www.leetcode.com/problems/*",
+        "https://geeksforgeeks.org/problems/*",
+        "https://www.geeksforgeeks.org/problems/*"
+      ],
+      "js": ["content.js"],
+      "css": ["hint-display.css"]
+    }
+  ]
+}
