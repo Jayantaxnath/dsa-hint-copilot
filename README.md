@@ -1,7 +1,8 @@
-# DSA Hint Copilot💡
+# <div>DSA Hint Copilot </></div>
 
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)
 ![Version](https://img.shields.io/badge/Version-1.0-brightgreen)
+![License](https://img.shields.io/badge/Response%20Time-~70ms-blue)
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-purple)
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-red)
 ![Platform](https://img.shields.io/badge/Platform-GFG-green)
