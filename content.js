@@ -3,7 +3,7 @@ let hints = [];
 let apiBusy = false;
 
 const API_URL = "https://api.groq.com/openai/v1/chat/completions";
-const API_KEY = "gsk_abcdefgfchdklndlwlenddwkjenwjebddeewkjdbewlw";
+const API_KEY = "your_api_key";
 
 // Plateform Detect
 function detectPlatform() {
@@ -122,10 +122,10 @@ function extractProblemData() {
 // API CALL (snippet code avaiable at demo\api_call.js)
 async function callGroqModel(prompt, options = {}) {
   const {
-    model = "llama-3.1-8b-instant",
+    model = "llama-3.3-70b-versatile", // llama-3.1-8b-instant
     temperature = 0.5,
-    max_tokens = 200,
-    systemPrompt = "You are an expert coding assistant who gives concise coding hints."
+    max_tokens = 300,
+    systemPrompt = "You are an expert coding assistant who gives concise dsa hints."
   } = options;
 
   try {

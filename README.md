@@ -45,7 +45,7 @@ User Click → Display cached hint
 ## Tech Stack
 
 - Manifest V3 (Chrome Extensions)
-- Groq API (llama-3.1-8b-instant)
+- Groq API: llama-3.3-70b-versatile(new); llama-3.1-8b-instant(old)
 - Vanilla JavaScript
 - DOM-based problem extraction
 
